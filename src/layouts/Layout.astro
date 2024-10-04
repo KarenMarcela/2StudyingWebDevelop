@@ -1,0 +1,194 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="font-sans">
+		<slot />
+		<header
+			class="flex flex-row space-x-3 justify-center border-b-2 border-gray-200"
+		>
+			<img
+				class="w-[150px] mr-[500px]"
+				src="https://www.brandemia.org/wp-content/uploads/2011/09/logo_nike_principal.jpg"
+				alt="Logo"
+			/>
+			<div class="flex flex-row justify-center items-center space-x-10">
+				<menu class="space-x-10 mr-[100px]">
+					<a class="hover:text-orange-600 font-semibold" href="#"
+						>Inicio</a
+					>
+					<a class="hover:text-orange-600 font-semibold" href="#"
+						>Inicio</a
+					>
+					<a class="hover:text-orange-600 font-semibold" href="#"
+						>Inicio</a
+					>
+					<a class="hover:text-orange-600 font-semibold" href="#"
+						>Inicio</a
+					>
+					<a class="hover:text-orange-600 font-semibold" href="#"
+						>Inicio</a
+					>
+				</menu>
+				<button
+					class="hover:bg-orange-200 border-2 border-b-4 border-solid border-black bg-red-500/10 px-[10px] py-[5px] rounded-md"
+					>Iniciar sesión</button
+				>
+			</div>
+		</header>
+		<section class="banner1">
+			<div
+				class="flex flex-col justify-center items-center space-y-4 mt-[100px]"
+			>
+				<h1 class="text-black font-semibold text-[50px]">
+					Expert Seuand jsdh and Develop
+				</h1>
+				<p>
+					sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv
+				</p>
+				<p>
+					sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv
+				</p>
+				<button
+					class="hover:bg-orange-200 border-2 border-b-4 border-solid border-black bg-red-500/10 px-[10px] py-[5px] rounded-md"
+				>
+					Ingresar
+				</button>
+			</div>
+			<div class="flex flex-row justify-center mt-[100px] space-x-7">
+				<div class="flex flex-row space-x-2">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="size-6  text-red-500"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+						></path>
+					</svg>
+					<h2>Lovely Desig</h2>
+				</div>
+				<div class="flex flex-row space-x-2">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="size-6  text-red-500"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+						></path>
+					</svg>
+					<h2>Lovely Desig</h2>
+				</div>
+				<div class="flex flex-row space-x-2">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="size-6  text-red-500"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+						></path>
+					</svg>
+					<h2>Lovely Desig</h2>
+				</div>
+			</div>
+		</section>
+
+		<section class="banner2 bg-gray-400/10 mt-[80px] flex items-center flex-col h-[600px] ">
+			<div class="flex flex-col items-center  w-[900px] space-y-2 ">
+				<h1 class="text-black font-semibold text-[50px]">
+					Expert Seuand jsdh and Develop ? 
+				</h1>
+				<p class="">
+					sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv
+				</p>
+			</div>
+			<div class="mt-[40px]  	 flex flex-row space-x-3">
+				<div class="flex flex-col W-[20px]  w-[300px] ">
+					<h1 class=" text-center">🧠</h1>
+					<h2 class="text-center font-semibold text-[20px]">Experto</h2>
+					<p class="text-center p-[10px]"> jsdjsh jdhahd hasdasu hgvdyvb cuhhacu dsaub uDH 
+				</div>
+				<div class="flex flex-col W-[20px]  w-[300px] ">
+					<h1 class=" text-center">🧠</h1>
+					<h2 class="text-center font-semibold text-[20px]">Experto</h2>
+					<p class="text-center p-[10px]"> jsdjsh jdhahd hasdasu hgvdyvb cuhhacu dsaub uDH 
+				</div>
+				<div class="flex flex-col W-[20px]  w-[300px] ">
+					<h1 class=" text-center">🧠</h1>
+					<h2 class="text-center font-semibold text-[20px]">Experto</h2>
+					<p class="text-center p-[10px]"> jsdjsh jdhahd hasdasu hgvdyvb cuhhacu dsaub uDH 
+				</div>
+			</div>
+			<div class="mt-[40px] w-[600px] bg-white flex flex-col justify-center items-center py-[20px]">
+				<p class="text-center font-semibold text-[20px]">"ODJSDN hjins ucdsyfncs uyfh ynwcr xenahwa yxawei ncuehf ishshc hasuhus uhdausgf SDN hjins ucdsyfncs uyfh ynwcr SDN hjins ucdsyfncs uyfh ynwcr"</p>
+			</div>
+			<button class="mt-[20px] hover:bg-orange-200 border-2 border-b-4 border-solid border-black bg-red-500/10 px-[10px] py-[5px] rounded-md">Scoks hdjs</button>
+		</section>
+		<section class="banner3 h-[800px] bg-white flex justify-center items-center flex-col">
+			<div class="flex flex-col items-center  w-[900px] space-y-2 ">
+				<h1 class="text-black font-semibold text-[50px]">
+					Expert Seuand jsdh and Develop ? 
+				</h1>
+				<p class="">
+					sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv sjahdjs fiash ska ODIapda CHDSI Ijdifs issja isdinvs shdua
+					vdiuf hiasuios cisisdnv
+				</p>
+			</div>
+			<div class="w-[900px]  flex flex-row space-x-8 mt-[40px]">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxh1FeOr3t8_QXd5FwDKYIRj6O01jN_HK8IA&s" alt="">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxh1FeOr3t8_QXd5FwDKYIRj6O01jN_HK8IA&s" alt="">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxh1FeOr3t8_QXd5FwDKYIRj6O01jN_HK8IA&s" alt="">
+			</div>
+			<div class="w-[900px]  flex flex-row space-x-8 mt-[40px]">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxh1FeOr3t8_QXd5FwDKYIRj6O01jN_HK8IA&s" alt="">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxh1FeOr3t8_QXd5FwDKYIRj6O01jN_HK8IA&s" alt="">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxh1FeOr3t8_QXd5FwDKYIRj6O01jN_HK8IA&s" alt="">
+			</div>
+			<button class="mt-[20px] hover:bg-orange-200 border-2 border-b-4 border-solid border-black bg-red-500/10 px-[10px] py-[5px] rounded-md">Scoks hdjs</button>
+		</section>
+		<section class="banner4 h-[800px]  bg-gray-400/10 ">
+
+		</section>
+		<footer>
+
+		</footer>
+	</body>
+</html>
